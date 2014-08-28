@@ -34,7 +34,7 @@ text-align: center;
 			<div id="header"><img src="http://www.awsps.com.s3.amazonaws.com/training/materials/samplefiles/banner.png"></div>
 			<div id="main">
 				<p>
-<?
+				<?php
 $url = "http://169.254.169.254/latest/meta-data/instance-id";
 $instance_id = file_get_contents($url);
 echo "Instance ID: <b>" . $instance_id . "</b><br/>";
